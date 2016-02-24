@@ -14,6 +14,8 @@
 #define WBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0];
 //为UIview 创建的分类
 #import "UIView+Extension.h"
+//UIBarButton 分类
+#import "UIBarButtonItem+Extension.h"
 
 //随机色
 #define WBRandomColor [UIColor colorWithRed:arc4random_uniform(256)/255.0 green:arc4random_uniform(256)/255.0  blue:arc4random_uniform(256)/255.0  alpha:1.0];

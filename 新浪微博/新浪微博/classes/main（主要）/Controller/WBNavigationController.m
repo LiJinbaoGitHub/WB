@@ -33,28 +33,8 @@
         /* 自动显示和隐藏tabbar */
         viewController.hidesBottomBarWhenPushed = YES;
         
-        /* 创建导航栏*/
-        
-        //创建按钮
-        UIButton * backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        UIButton * moreBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        //设置图片
-        [backBtn setBackgroundImage:[UIImage imageNamed:@"navigationbar_back"] forState:UIControlStateNormal];
-        [backBtn setBackgroundImage:[UIImage imageNamed:@"navigationbar_back_highlighted"] forState:UIControlStateHighlighted];
-        
-        [moreBtn setBackgroundImage:[UIImage imageNamed:@"navigationbar_more"] forState:UIControlStateNormal];
-        [moreBtn setBackgroundImage:[UIImage imageNamed:@"navigationbar_more_highlighted"] forState:UIControlStateHighlighted];
-        
-        //设置尺寸
-        backBtn.size = backBtn.currentBackgroundImage.size;
-        moreBtn.size = moreBtn.currentBackgroundImage.size;
-        
-        //back 监听事件
-        [backBtn addTarget:self action:@selector(backToBeforeView) forControlEvents:UIControlEventTouchUpInside];
-        [moreBtn addTarget:self action:@selector(backToTopView) forControlEvents:UIControlEventTouchUpInside];
-        
-        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:backBtn];
-        viewController.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:moreBtn];
+        viewController.navigationItem.leftBarButtonItem = [UIBarButtonItem ItemWithTarget:self Action:@selector(backToBeforeView) image:@"navigationbar_back" heightImage:@"navigationbar_back_highlighted"];
+        viewController.navigationItem.rightBarButtonItem = [UIBarButtonItem ItemWithTarget:self Action:@selector(backToTopView) image:@"navigationbar_more" heightImage:@"navigationbar_more_highlighted"];
 
     }
     [super pushViewController:viewController animated:YES];

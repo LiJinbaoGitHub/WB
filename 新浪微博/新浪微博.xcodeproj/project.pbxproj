@@ -22,6 +22,7 @@
 		0467BCCC1C7DD86400034E39 /* WBTest2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0467BCBC1C7DD86400034E39 /* WBTest2ViewController.xib */; };
 		0467BCCD1C7DD86400034E39 /* WBTest3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0467BCBE1C7DD86400034E39 /* WBTest3ViewController.m */; };
 		0467BCCE1C7DD86400034E39 /* WBTest3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0467BCBF1C7DD86400034E39 /* WBTest3ViewController.xib */; };
+		0467BCD41C7DF16400034E39 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0467BCD31C7DF16400034E39 /* UIBarButtonItem+Extension.m */; };
 		04F434211C7340D700439546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F434201C7340D700439546 /* Assets.xcassets */; };
 		04F4342F1C7340D700439546 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4342E1C7340D700439546 /* ____Tests.m */; };
 		04F4343A1C7340D700439546 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F434391C7340D700439546 /* ____UITests.m */; };
@@ -71,6 +72,8 @@
 		0467BCBD1C7DD86400034E39 /* WBTest3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBTest3ViewController.h; sourceTree = "<group>"; };
 		0467BCBE1C7DD86400034E39 /* WBTest3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBTest3ViewController.m; sourceTree = "<group>"; };
 		0467BCBF1C7DD86400034E39 /* WBTest3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WBTest3ViewController.xib; sourceTree = "<group>"; };
+		0467BCD21C7DF16400034E39 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		0467BCD31C7DF16400034E39 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		04859CAA1C743D89000C82E0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		04F434111C7340D700439546 /* 新浪微博.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新浪微博.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F434201C7340D700439546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -194,6 +197,8 @@
 			children = (
 				0467BC9F1C7DD86400034E39 /* UIView+Extension.h */,
 				0467BCA01C7DD86400034E39 /* UIView+Extension.m */,
+				0467BCD21C7DF16400034E39 /* UIBarButtonItem+Extension.h */,
+				0467BCD31C7DF16400034E39 /* UIBarButtonItem+Extension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -521,6 +526,7 @@
 				0467BCC51C7DD86400034E39 /* WBTabbarController.m in Sources */,
 				0467BCC91C7DD86400034E39 /* WBTest1ViewController.m in Sources */,
 				0467BCC31C7DD86400034E39 /* UIView+Extension.m in Sources */,
+				0467BCD41C7DF16400034E39 /* UIBarButtonItem+Extension.m in Sources */,
 				0467BCCB1C7DD86400034E39 /* WBTest2ViewController.m in Sources */,
 				0467BCC41C7DD86400034E39 /* WBNavigationController.m in Sources */,
 				0467BCC61C7DD86400034E39 /* main.m in Sources */,
